@@ -1,0 +1,15 @@
+/* Global Styles */
+
+:root {
+    --primary-color: #004E7C;
+    --secondary-color: #E9F7FD;
+    --background-color: #F9F9F9;
+    --text-color: #333;
+    --text-light-color: #fff;
+    --border-color: #ccc;
+    
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --paragraph-size-mobile: 20px;
+    --font-size: 1.1em;
+    --h2-size: 2em;
+}
