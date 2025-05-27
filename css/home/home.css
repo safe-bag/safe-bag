@@ -155,7 +155,8 @@
     }
 
     .list ul li:active {
-        transform: scale(1.05);
+        transform: scale(1.025);
+        transition: 0.3s ease-in-out;
     }
 
     /* FOOTER */
@@ -331,7 +332,8 @@
     }
 
     .list ul li:active {
-        transform: scale(1.05);
+        transform: scale(1.025);
+        transition: 0.3s ease-in-out;
     }
 
     /* FOOTER */
@@ -513,7 +515,8 @@
     }
 
     .list ul li:hover {
-        transform: scale(1.05);
+        transform: scale(1.025);
+        transition: 0.3s ease-in-out;
     }
 
     /* FOOTER */
@@ -699,7 +702,8 @@
     }
 
     .list ul li:hover {
-        transform: scale(1.05);
+        transform: scale(1.025);
+        transition: 0.3s ease-in-out;
     }
 
     /* FOOTER */
