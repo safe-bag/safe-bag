@@ -1,0 +1,100 @@
+@media (max-width: 600px) {
+    
+    body {
+      background-color: #f2f4f8;
+      color: #333;
+    }
+
+    /* CONTAINER */
+    .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    }
+
+    .logo {
+        width: 7rem;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        background-color: var(--primary-color);
+        padding: 20px 0;
+    }
+    
+    .navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.8em;
+    }
+
+    .navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    }
+
+    .navbar nav ul li a:hover {
+    text-decoration: underline;
+    }
+
+    .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+
+    main {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      border-bottom: 3px solid var(--primary-color);
+      display: inline-block;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    p {
+        font-size: var(--font-size);
+      line-height: 1.8;
+      margin-bottom: 15px;
+      color: var(--text-color);
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .member {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      flex: 1 1 200px;
+    }
+
+    .member h4 {
+      margin-bottom: 5px;
+      color: #003049;
+    }
+
+    footer {
+      background-color: #003049;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+}
