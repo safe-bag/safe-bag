@@ -24,7 +24,7 @@
       .container h2 {
         text-align: center;
         margin-bottom: 20px;
-        color: var(--primary-color);
+        color: var(--text-light-color);
         font-size: var(--h2-size);
       }
     
@@ -50,13 +50,13 @@
     
       .form-group input:focus {
         outline: none;
-        border-color: #2563eb;
+        border-color: var;
       }
     
       .btn {
         width: 100%;
         padding: 12px;
-        background-color: #2563eb;
+        background-color: var(--primary-color);
         color: white;
         border: none;
         border-radius: 10px;
@@ -66,7 +66,7 @@
       }
     
       .btn:hover {
-        background-color: #1d4ed8;
+        background-color: var(--hover-color);
       }
     
       .footer {
@@ -77,13 +77,9 @@
       }
     
       .footer a {
-        color: var(--primary-color );
-        text-decoration: none;
-        font-weight: 500;
-      }
-    
-      .footer a:hover {
+        color: var(--secondary-color );
         text-decoration: underline;
+        font-weight: 500;
       }
 }   
 
@@ -113,7 +109,7 @@
       .container h2 {
         text-align: center;
         margin-bottom: 20px;
-        color: var(--primary-color);
+        color: var(--text-light-color);
         font-size: var(--h2-size);
       }
     
@@ -139,13 +135,13 @@
     
       .form-group input:focus {
         outline: none;
-        border-color: #2563eb;
+        border-color: var(--primary-color);
       }
     
       .btn {
         width: 100%;
         padding: 12px;
-        background-color: #2563eb;
+        background-color: var(--primary-color);
         color: white;
         border: none;
         border-radius: 10px;
@@ -155,7 +151,7 @@
       }
     
       .btn:hover {
-        background-color: #1d4ed8;
+        background-color: var(--hover-color);
       }
     
       .footer {
@@ -166,13 +162,9 @@
       }
     
       .footer a {
-        color: var(--primary-color );
-        text-decoration: none;
-        font-weight: 500;
-      }
-    
-      .footer a:hover {
+        color: var(--secondary-color );
         text-decoration: underline;
+        font-weight: 500;
       }
 }   
 
@@ -202,7 +194,7 @@
       .container h2 {
         text-align: center;
         margin-bottom: 20px;
-        color: var(--primary-color);
+        color: var(--text-light-color);
         font-size: var(--h2-size);
       }
     
@@ -228,13 +220,13 @@
     
       .form-group input:focus {
         outline: none;
-        border-color: #2563eb;
+        border-color: var(--primary-color);
       }
     
       .btn {
         width: 100%;
         padding: 12px;
-        background-color: #2563eb;
+        background-color: var(--primary-color);
         color: white;
         border: none;
         border-radius: 10px;
@@ -244,7 +236,7 @@
       }
     
       .btn:hover {
-        background-color: #1d4ed8;
+        background-color: var(--hover-color);
       }
     
       .footer {
@@ -253,15 +245,11 @@
         color: var(--text-light-color);
         font-size: 0.9rem;
       }
-    
-      .footer a {
-        color: var(--primary-color );
-        text-decoration: none;
-        font-weight: 500;
-      }
-    
-      .footer a:hover {
+
+    .footer a {
+        color: var(--secondary-color );
         text-decoration: underline;
+        font-weight: 500;
       }
 }   
 
@@ -291,7 +279,7 @@
       .container h2 {
         text-align: center;
         margin-bottom: 20px;
-        color: var(--primary-color);
+        color: var(--text-light-color);
         font-size: 2.5em;
       }
     
@@ -318,13 +306,13 @@
     
       .form-group input:focus {
         outline: none;
-        border-color: #2563eb;
+        border-color: var(--primary-color);
       }
     
       .btn {
         width: 100%;
         padding: 12px;
-        background-color: #2563eb;
+        background-color: var(--primary-color);
         color: white;
         border: none;
         border-radius: 10px;
@@ -334,7 +322,7 @@
       }
     
       .btn:hover {
-        background-color: #1d4ed8;
+        background-color: var(--hover-color);
       }
     
       .footer {
@@ -345,12 +333,8 @@
       }
     
       .footer a {
-        color: var(--primary-color );
-        text-decoration: none;
-        font-weight: 500;;
-      }
-    
-      .footer a:hover {
+        color: var(--secondary-color );
         text-decoration: underline;
+        font-weight: 500;
       }
 } 

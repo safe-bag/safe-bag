@@ -1,7 +1,8 @@
 /* Global Styles */
 
 :root {
-    --primary-color: #004E7C;
+    --primary-color: #2563eb;
+    --hover-color: #004E7C;
     --secondary-color: #E9F7FD;
     --background-color: #F9F9F9;
     --text-color: #333;
