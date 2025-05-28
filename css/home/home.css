@@ -5,6 +5,10 @@ body {
 } 
 @media (max-width: 600px) {
 
+    p, li, i {
+        font-size: var(--font-size);
+    }
+
     /* CONTAINER */
     .container {
     width: 90%;
@@ -35,6 +39,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1.1em;
     }
 
     .navbar nav ul li a:hover {
@@ -74,6 +79,10 @@ body {
     font-size: 1.1em;
     margin-bottom: 30px;
     color: var(--text-color);
+    }
+
+    .btn {
+        font-size: var(--font-size);
     }
 
     .hero-text h2 span p {
@@ -184,6 +193,10 @@ body {
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
+    p, li, i {
+        font-size: var(--font-size);
+    }
+
     /* CONTAINER */
     .container {
     width: 90%;
@@ -214,6 +227,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1.1em;
     }
 
     .navbar nav ul li a:hover {
@@ -276,6 +290,7 @@ body {
     text-decoration: none;
     border-radius: 8px;
     transition: background 0.3s;
+    font-size: var(--font-size);
     }
 
     .btn:hover {
@@ -376,6 +391,11 @@ body {
 
 @media (min-width: 1025px) and (max-width: 1440px) {
 
+    p, li, i {
+        font-size: 1.2em;
+    }
+
+
     /* CONTAINER */
     .container {
     width: 90%;
@@ -406,6 +426,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1.2em;
     }
 
     .navbar nav ul li a:hover {
@@ -469,6 +490,7 @@ body {
     text-decoration: none;
     border-radius: 8px;
     transition: background 0.3s;
+    font-size: 1.2em;
     }
 
     .btn:hover {
@@ -665,6 +687,7 @@ body {
     text-decoration: none;
     border-radius: 8px;
     transition: background 0.3s;
+    font-size: 1.2em;
     }
 
     .btn:hover {
