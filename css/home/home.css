@@ -1,10 +1,9 @@
-@media (max-width: 600px) {
-
-    body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    font-family: sans-serif;
     background-color: #f2f4f8;
     color: #333;
-    }
+} 
+@media (max-width: 600px) {
 
     /* CONTAINER */
     .container {
@@ -171,12 +170,6 @@
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-    body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f2f4f8;
-    color: #333;
-    }
-
     /* CONTAINER */
     .container {
     width: 90%;
@@ -229,7 +222,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     }
 
     .hero-text {
@@ -243,7 +236,7 @@
     }
 
     .hero-text p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 30px;
     color: var(--text-color);
     }
@@ -354,11 +347,6 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-    body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f2f4f8;
-    color: #333;
-    }
 
     /* CONTAINER */
     .container {
@@ -381,9 +369,9 @@
     }
     
     .navbar nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
+        list-style: none;
+        display: flex;
+        gap: 30px;
     }
 
     .navbar nav ul li a {
@@ -398,8 +386,9 @@
 
     .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    gap: 20rem;
     }
 
     /* HERO */
@@ -459,11 +448,12 @@
     .about .container {
         display: flex;
         flex-direction: column;
+        max-width: 1000px;
     }
 
      .about .container p {
        color: var(--text-color);
-       font-size: 1.1em;
+       font-size: 1.2em;
     }
 
 
@@ -487,7 +477,7 @@
     }
 
     .list p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 1.7em;
     margin-bottom: 20px;
     color: var(--text-color);
@@ -510,7 +500,7 @@
     margin-bottom: 10px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    font-size: 1.1em;
+    font-size: 1.2em;
     width: 100%;
     }
 
@@ -537,11 +527,6 @@
 }
 
 @media (min-width: 1441px) {
-    body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f2f4f8;
-    color: #333;
-    }
 
     p, li, i {
         font-size: 1.2em;
@@ -574,9 +559,9 @@
     }
 
     .navbar nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
     }
 
     .navbar nav ul li a:hover {
@@ -613,7 +598,6 @@
     }
 
     .hero-text p {
-    font-size: 1.2em;;
     margin-bottom: 30px;
     color: var(--text-color);
     }
@@ -650,7 +634,6 @@
 
      .about .container p {
        color: var(--text-color);
-       font-size: 1.1em;
     }
 
 
