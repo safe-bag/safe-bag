@@ -33,10 +33,12 @@ const verifyCity = (citySelected) => {
     const risk = cityDisaster.some(cidade => cidade.toLowerCase() === citySelected.toLowerCase());
 
     if(risk) {
-        result.innerHTML = `⚠️ Atenção! ${citySelected} é uma região com histórico de desastres naturais.`;
+        result.style.padding = '20px';
+        result.innerHTML = `⚠️ Atenção! ${citySelected} é uma região com histórico de desastres naturais. <p style="color: #333;">Por isso, é fundamental que você tenha sempre sua mochila de emergência pronta e fique atento aos alertas da sua cidade.</p>`;
         result.style.color = 'red';
     } else {
-        result.innerHTML = `✅ ${citySelected} não possui histórico relevante de desastres naturais.`;
+        result.style.padding = '20px';
+        result.innerHTML = `✅ ${citySelected} não possui histórico relevante de desastres naturais. <p style="color: #333;">Apesar disso, desastres podem acontecer em qualquer lugar. É sempre recomendado estar preparado e manter sua mochila de emergência atualizada.</p>`;
         result.style.color = 'green';
     }
 }
