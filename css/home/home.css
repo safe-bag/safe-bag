@@ -5,18 +5,18 @@ body {
 } 
 @media (max-width: 600px) {
 
-    p, li, i {
-        font-size: var(--font-size);
+    p, li, label {
+        font-size: 1em;
     }
 
     /* CONTAINER */
     .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
     }
 
     .logo {
@@ -28,28 +28,28 @@ body {
         background-color: var(--primary-color);
         padding: 20px 0;
     }
-    
+
     .navbar nav ul {
-    list-style: none;
-    display: flex;
-    gap: 0.8em;
+        list-style: none;
+        display: flex;
+        gap: 0.8em;
     }
 
     .navbar nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1em;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.1em;
     }
 
     .navbar nav ul li a:hover {
-    text-decoration: underline;
+        text-decoration: underline;
     }
 
     .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /* HERO */

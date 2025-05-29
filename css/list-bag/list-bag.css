@@ -7,7 +7,7 @@ body {
 @media (max-width: 600px) {
 
     p, li, label {
-        font-size: var(--font-size);
+        font-size: 1em;
     }
 
     /* CONTAINER */
@@ -18,40 +18,40 @@ body {
         display: flex;
         flex-direction: column;
         gap: 0.5em;
-    }
-
-    .logo {
-        width: 7rem;
-    }
-
-    /* NAVBAR */
-    .navbar {
-        background-color: var(--primary-color);
-        padding: 20px 0;
-    }
-
-    .navbar nav ul {
+        }
+    
+        .logo {
+            width: 7rem;
+        }
+    
+        /* NAVBAR */
+        .navbar {
+            background-color: var(--primary-color);
+            padding: 20px 0;
+        }
+        
+        .navbar nav ul {
         list-style: none;
         display: flex;
         gap: 0.8em;
-    }
-
-    .navbar nav ul li a {
+        }
+    
+        .navbar nav ul li a {
         color: #fff;
         text-decoration: none;
         font-weight: 500;
         font-size: 1.1em;
-    }
-
-    .navbar nav ul li a:hover {
+        }
+    
+        .navbar nav ul li a:hover {
         text-decoration: underline;
-    }
-
-    .navbar .container {
+        }
+    
+        .navbar .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
+        }
 
     main {
         padding: 50px 20px;
@@ -141,10 +141,6 @@ body {
         padding-left: 0;
     }
 
-    ul li {
-        padding: 8px 0;
-    }
-
     /* FOOTER */
     .footer {
         background-color: var(--primary-color);
@@ -152,12 +148,6 @@ body {
         text-align: center;
         padding: 20px;
     }
-}
-
-body {
-    font-family: sans-serif;
-    background-color: #f2f4f8;
-    color: #333;
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -428,7 +418,7 @@ body {
         font-weight: bold;
     }
 
-    .btn:active {
+    .btn:hover {
         background-color: var(--dark-color);
     }
 
