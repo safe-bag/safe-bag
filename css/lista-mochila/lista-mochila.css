@@ -490,7 +490,7 @@ body {
     }
 
     .logo {
-        width: 7rem;
+        width: 8rem;
     }
 
     /* NAVBAR */
@@ -502,7 +502,7 @@ body {
     .navbar nav ul {
         list-style: none;
         display: flex;
-        gap: 0.8em;
+        gap: 30px;
     }
 
     .navbar nav ul li a {
