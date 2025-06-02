@@ -562,6 +562,7 @@ body {
         flex-direction: column;
         margin: 1rem 0;
         gap: 1.5rem;
+        min-width: 450px;
     }
     
     .container-support{
