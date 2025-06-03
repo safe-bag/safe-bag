@@ -479,7 +479,7 @@ body {
         display: flex;
         justify-content: center;
         padding: 60px 20px;
-        background-color: var(--secondary-color);
+        background-color: #f9f9f9;
     }
 
     .list h2 {
@@ -690,7 +690,7 @@ body {
         display: flex;
         justify-content: center;
         padding: 60px 20px;
-        background-color: var(--secondary-color);
+        background-color: #f9f9f9;
     }
 
     .list h2 {
@@ -896,7 +896,7 @@ body {
         display: flex;
         justify-content: center;
         padding: 60px 20px;
-        background-color: var(--secondary-color);
+        background-color: #f9f9f9;
     }
 
     .list h2 {

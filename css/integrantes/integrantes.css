@@ -168,7 +168,7 @@ body.menu-open {
       background-color: white;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      flex: 1 1 180px;
+      flex: 1 1 220px;
       display: flex;
       justify-content: center;
       gap: 20px;
@@ -192,6 +192,16 @@ body.menu-open {
 
     .member h4 {
       color: var(--text-color);
+    }
+
+    .container-socials {
+      display: flex;
+      justify-content: start;
+      gap: 5px;
+    }
+
+    .container-socials i {
+      font-size: 1.1em;
     }
 
     [data-photo] {
@@ -369,7 +379,7 @@ body.menu-open {
     display: flex;
     justify-content: center;
     gap: 20px;
-    width: 450px;
+    width: 400px;
     align-items: center;
   }
 
@@ -389,6 +399,16 @@ body.menu-open {
 
   .member h4 {
     color: var(--text-color);
+  }
+
+  .container-socials {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+  }
+
+  .container-socials i {
+    font-size: 1.1em;
   }
 
   [data-photo] {
@@ -503,8 +523,8 @@ body.menu-open {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     display: flex;
-    width: 350px;
-    height: 190px;
+    width: 370px;
+    height: 230px;
     justify-content: center;
     gap: 20px;
     align-items: center;
@@ -526,6 +546,17 @@ body.menu-open {
 
   .member h4 {
     color: var(--text-color);
+  }
+
+  .container-socials {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+  }
+
+  .container-socials i {
+    font-size: 1.2em;
+    cursor: pointer;
   }
 
   [data-photo] {
@@ -639,8 +670,8 @@ body.menu-open {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     display: flex;
-    width: 350px;
-    height: 190px;
+    width: 370px;
+    height: 230px;
     justify-content: center;
     gap: 20px;
     align-items: center;
@@ -662,6 +693,17 @@ body.menu-open {
 
   .member h4 {
     color: var(--text-color);
+  }
+
+  .container-socials {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+  }
+
+  .container-socials i {
+    font-size: 1.2em;
+    cursor: pointer;
   }
 
   [data-photo] {
