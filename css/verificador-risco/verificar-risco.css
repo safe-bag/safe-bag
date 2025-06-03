@@ -252,10 +252,10 @@ body {
 
 @media (min-width: 601px) and (max-width: 1024px) {
     
-    p, li {
+    p, li, label {
         font-size: 1em;
-    }
-
+    }   
+    
     .container-header {
         width: 90%;
         max-width: 1200px;
@@ -266,7 +266,6 @@ body {
         justify-content: space-between;
         align-items: center;
     }
-    
     /* CONTAINER */
     .container {
         width: 90%;
@@ -291,7 +290,7 @@ body {
         display: block;
         position: absolute;
         width: 100%;
-        top: 140px;
+        top: 130px;
         right: 0;
         background-color: var(--primary-color);
         height: 0;
@@ -310,7 +309,7 @@ body {
     
     .menu li a {
         padding: 1rem;
-        margin: 20px ;
+        margin: 10px;
         font-size: 1.1em;
         display: block;
         text-decoration: none;
@@ -323,7 +322,7 @@ body {
     }
     
     #nav.active .menu {
-        height: calc(100vh - 140px);
+        height: calc(100vh - 130px);
         visibility: visible;
     }
     
@@ -370,6 +369,7 @@ body {
         top: -7px;
         position: relative;
     }
+    
     label {
         font-size: var(--font-size);
         line-height: 1.8;

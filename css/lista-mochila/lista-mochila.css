@@ -243,7 +243,6 @@ body {
         justify-content: space-between;
         align-items: center;
     }
-    
     /* CONTAINER */
     .container {
         width: 90%;
@@ -255,7 +254,7 @@ body {
     }
     
     .logo {
-        width: 7rem;
+        width: 8rem;
     }
     
     /* NAVBAR */
@@ -268,7 +267,7 @@ body {
         display: block;
         position: absolute;
         width: 100%;
-        top: 140px;
+        top: 130px;
         right: 0;
         background-color: var(--primary-color);
         height: 0;
@@ -287,7 +286,7 @@ body {
     
     .menu li a {
         padding: 1rem;
-        margin: 20px ;
+        margin: 10px;
         font-size: 1.1em;
         display: block;
         text-decoration: none;
@@ -300,7 +299,7 @@ body {
     }
     
     #nav.active .menu {
-        height: calc(100vh - 140px);
+        height: calc(100vh - 130px);
         visibility: visible;
     }
     
@@ -369,9 +368,6 @@ body {
         display: inline-block;
     }
 
-    section {
-        margin-bottom: 50px;
-    }
 
     p {
         line-height: 1.8;
@@ -439,10 +435,6 @@ body {
     ul {
         list-style: none;
         padding-left: 0;
-    }
-
-    ul li {
-        padding: 8px 0;
     }
 
     /* FOOTER */
