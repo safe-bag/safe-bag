@@ -5,11 +5,9 @@ form.addEventListener('submit', (evt) => {
 
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
 
-    const users = [name, email, password];
+    const users = [name, email];
 
     localStorage.setItem('name', JSON.stringify(users[0]));
     localStorage.setItem('email', JSON.stringify(users[1]));
-    localStorage.setItem('password', JSON.stringify(users[2]))
 })
