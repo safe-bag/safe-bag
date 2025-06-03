@@ -197,12 +197,6 @@ body {
     }
 
 
-    .navbar nav ul {
-        list-style: none;
-        display: flex;
-        gap: 0.8em;
-    }
-
     .form-group {
         display: flex;
         justify-content: center;
@@ -369,7 +363,7 @@ body {
         top: -7px;
         position: relative;
     }
-    
+
     label {
         font-size: var(--font-size);
         line-height: 1.8;
