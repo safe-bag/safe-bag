@@ -15,16 +15,28 @@ const showList = () => {
     const result = document.getElementById('result');
     const h2List = document.querySelector('.your-list');
     const listValue = JSON.parse(localStorage.getItem("itemList"));
+    const btnRemoveList = document.querySelector('#btn-removeList');
+
 
     if(listValue) {
         listValue.forEach(element => {
             result.innerHTML += `<li> ✔️ ${element} </li>`
         })
-        result.innerHTML += `<button class="btn" style="margin: 1rem 0"> Remover Lista </button>`;
     } else {
         h2List.innerHTML = "Monte seu mochila"
-        result.innerHTML += `<button class="btn"> Montar </button>`;
+        result.innerHTML += `<button class="btn" onClick="navigationList()"> Montar </button>`;
+        btnRemoveList.style.display = 'none';
     }
+}
+
+const removeList = async () => {
+    const h2List = document.querySelector('.your-list');
+    const listValue = JSON.parse(localStorage.getItem("itemList"));
+    listValue.innerHTML += "";
+    localStorage.removeItem(`itemList`);
+    window.location.reload()
+    h2List.innerHTML = "Monte seu mochila"
+    result.innerHTML += `<button class="btn" onClick="navigationList()"> Montar </button>`;
 }
 
 const navigationList = () => {
