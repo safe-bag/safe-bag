@@ -16,7 +16,7 @@ body {
  @media (max-width: 600px) {
   
     p, li, label {
-      font-size: 1em;
+      font-size: 1.1em;
   }   
   
   .container-header {
