@@ -203,7 +203,7 @@ body {
     /* SOBRE */
     .about {
     background-color: #f9f9f9;
-    padding: 60px 20px;
+    padding: 60px 20px 0;
     display: flex;
     }
 
@@ -459,10 +459,10 @@ body {
 
     /* SOBRE */
     .about {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-    display: flex;
-    }
+        background-color: #f9f9f9;
+        padding: 60px 20px 0;
+        display: flex;
+        }
 
     .about .container {
         display: flex;
@@ -669,10 +669,10 @@ body {
 
     /* SOBRE */
     .about {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-    display: flex;
-    }
+        background-color: #f9f9f9;
+        padding: 60px 20px 0;
+        display: flex;
+        }
 
     .about .container {
         display: flex;
@@ -823,7 +823,7 @@ body {
     .hero-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: no-wrap;
     }
 
@@ -871,15 +871,15 @@ body {
     }
 
     .hero-image img {
-    max-width: 400px;
+    max-width: 450px;
     width: 100%;
     }
 
     /* SOBRE */
     .about {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-    display: flex;
+        background-color: #f9f9f9;
+        padding: 60px 20px 0;
+        display: flex;
     }
 
     .about .container {
