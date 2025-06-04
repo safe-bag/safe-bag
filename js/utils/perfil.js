@@ -24,7 +24,7 @@ const showList = () => {
         })
     } else {
         h2List.innerHTML = "Monte seu mochila"
-        result.innerHTML += `<button class="btn" onClick="navigationList()"> Montar </button>`;
+        result.innerHTML += `<button class="btn-remove" onClick="navigationList()"> Montar </button>`;
         btnRemoveList.style.display = 'none';
     }
 }
@@ -36,7 +36,7 @@ const removeList = async () => {
     localStorage.removeItem(`itemList`);
     window.location.reload()
     h2List.innerHTML = "Monte seu mochila"
-    result.innerHTML += `<button class="btn" onClick="navigationList()"> Montar </button>`;
+    result.innerHTML += `<button class="btn-remove" onClick="navigationList()"> Montar </button>`;
 }
 
 const navigationList = () => {
