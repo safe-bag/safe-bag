@@ -50,4 +50,6 @@ Criar uma plataforma digital de fácil acesso, com navegação simples e design 
 ## 📄 Licença
 Este projeto é de uso educacional, desenvolvido como parte da **Global Solution FIAP**.
 
+Link Repositório Git Hub: https://github.com/safe-bag/safe-bag
+
 > Feito com 💙 para a Global Solution da FIAP.
